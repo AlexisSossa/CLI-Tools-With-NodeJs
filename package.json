@@ -8,5 +8,8 @@
   },
   "author": "Alexis Sosa",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.1.1"
+  }
 }

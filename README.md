@@ -15,8 +15,8 @@ quiz --add
 ```
 
 - Start a dialogue
-- Ask me for a question 
-- Ask me for the answer 
+- Ask me for a question
+- Ask me for the answer
 - Store for future uses
 
 ## What do I need?
@@ -27,3 +27,12 @@ quiz --add
  - Reading/Writing from the file system
 - Global script
 - Self-avaluating or auto-evaluating
+
+## Data Structure
+
+id: Integer
+question: String
+answer: String
+created: String (date)
+lastAsked: String (date)
+lastAnsweredCorrect: Boolean
